@@ -1,3 +1,4 @@
+import Nav from "@/components/nav";
 import Image from "next/image";
 
 export const metadata = {
@@ -6,8 +7,10 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
-    <h1>Pagina principal
-    </h1>
+      <Nav />
+      <h1>Hola
+      </h1>
     </div>
   );
 }
+
